@@ -1,0 +1,1 @@
+After implementing these features, I learned that having a good naming convention for files, such as ProductController and ProductRepository, makes it easier to work on the project. I also learned to apply secure coding practices, like using POST requests exclusively for write operations (create, edit, delete).
