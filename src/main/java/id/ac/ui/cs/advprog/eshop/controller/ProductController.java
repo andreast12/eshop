@@ -46,6 +46,6 @@ public class ProductController {
     public String editProductPost(@PathVariable String productId, @ModelAttribute Product product, Model model) {
         product.setProductId(productId);
         service.edit(product);
-        return "redirect:list";
+        return "redirect:/product/list";
     }
 }
