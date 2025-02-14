@@ -39,4 +39,13 @@ public class ProductRepository {
         }
         return null;
     }
+
+    public Product delete(String id) {
+        Product product = productData.stream()
+                .filter(p -> p.getProductId().equals(id))
+                .findFirst()
+                .orElse(null);
+        productData.remove(product);
+        return product;
+    }
 }
