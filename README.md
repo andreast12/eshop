@@ -1,3 +1,12 @@
+# Module 2
+
+## Reflection
+
+1. The issue I fixed during the exercise was the redundant `public` keyword in the methods of an interface. To resolve this, I simply deleted the `public` keyword from those methods.
+2. Yes, I think the current implementation has met the definition of Continuous Integration and Continuous Deployment. For CI, I have implemented github actions to automatically run the unit test suite. I have also implemented scorecard and pmd for code scanning/analysis whenever a push is made to the repository. For CD, I have set up the deployment of the application using Koyeb. Koyeb will detect every push made to the main branch and automatically triggers the build and deployment process.
+
+# Module 1
+
 ## Reflection 1
 
 After implementing these features, I learned that having a good naming convention for files, such as ProductController and ProductRepository, makes it easier to work on the project. I also learned to apply secure coding practices, like using POST requests exclusively for write operations (create, edit, delete).
