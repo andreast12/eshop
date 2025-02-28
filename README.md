@@ -1,3 +1,15 @@
+# Module 3
+
+## Reflection
+
+1. Principles I applied to my project:
+    - SRP: Separated the Product and Car controllers to ensure each is responsible for its own entity.
+    - LSP: The Car controller should not extend the Product controller since they have distinct logic that should not be shared.
+    - DIP: Services are injected using constructor dependency injection, ensuring that controllers depend only on abstractions.
+    - OCP: Existing classes and interfaces can be extended or implemented without requiring modifications.
+2. Improved code readability, intuitiveness, and maintainability. For example, separating the Product and Car controllers, which were previously combined in a single file, makes the code more organized and easier to manage.
+3. Before applying SOLID principles, maintaining, extending, and modifying the code was more difficult. For instance, when the Product and Car controllers were combined in one file, it was harder to maintain and develop them separately. Any new functionality could introduce conflicts or break existing logic since the controllers had their own distinct responsibilities.
+
 # Module 2
 
 ## Reflection
