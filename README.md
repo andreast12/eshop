@@ -1,3 +1,11 @@
+# Module 4
+
+## Reflection
+
+1. The TDD flow was useful in guiding incremental development and ensuring that each feature met its requirements before moving forward. However, I found that sometimes I wrote tests that were too broad or vague, making debugging harder. Next time, I will focus on writing more granular tests and refining my assertions to better capture expected behavior.
+
+2. My unit tests followed most of the F.I.R.S.T. principles, particularly in being Fast, Independent, and Repeatable. However, I noticed some tests were not entirely Self-validating, as they required manual inspection of logs rather than clear pass/fail results. Next time, I will ensure that every test has explicit assertions and does not rely on external conditions for validation.
+
 # Module 3
 
 ## Reflection
