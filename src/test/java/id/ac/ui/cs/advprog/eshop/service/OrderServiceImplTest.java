@@ -120,10 +120,10 @@ class OrderServiceImplTest {
     @Test
     void testFindAllByAuthorIfAuthorCorrect() {
         Order order = orders.get(1);
-        doReturn(order).when(orderRepository).findAllByAuthor(order.getAuthor());
+        doReturn(orders).when(orderRepository).findAllByAuthor(order.getAuthor());
 
         List<Order> results = orderService.findAllByAuthor(order.getAuthor());
-        for (Order reseult : results) {
+        for (Order result : results) {
             assertEquals(order.getAuthor(), result.getAuthor());
         }
 
